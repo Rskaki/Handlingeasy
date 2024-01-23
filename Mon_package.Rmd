@@ -1,0 +1,45 @@
+---
+title: "Informations Handlingeasy"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{comment-utiliser-mon-package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+library(handlingeasy)
+library(dplyr)
+```
+
+## Handlingeasy
+
+### Description {.tabset}
+
+#### English
+
+Welcome to Handlingeasy, a powerful and versatile R package designed to make data handling easier. This package provides a set of simple and intuitive functions to streamline common data manipulation tasks. Whether you are a beginner or an experienced data analyst, Handlingeasy aims to enhance your workflow by simplifying the process of working with data. Explore the documentation and discover how Handlingeasy can empower your data analysis projects.
+
+
+#### Français
+
+Bienvenue dans Handlingeasy, un package R puissant et polyvalent conçu pour faciliter la manipulation des données. Ce paquetage fournit un ensemble de fonctions simples et intuitives pour rationaliser les tâches courantes de manipulation de données. Que vous soyez un débutant ou un analyste de données expérimenté, Handlingeasy vise à améliorer votre flux de travail en simplifiant le processus de manipulation des données. Explorez la documentation et découvrez comment Handlingeasy peut améliorer vos projets d'analyse de données.
+
+
+
+
+
+```{r setup}
+knitr::opts_chunk$set(include = FALSE)
+library(dplyr)
+library(lubridate)
+library(stringr)
+library(tidyverse)
+```
+
+
+```{r}
+
+```
+
